@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pro_frontend
+  description: |
+    No description provided
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Meeranmk/pro_frontend
+  links:
+    - title: Repository
+      url: https://github.com/Meeranmk/pro_frontend
+spec:
+  type: service
+  lifecycle: production
+  owner: user:Meeranmk
